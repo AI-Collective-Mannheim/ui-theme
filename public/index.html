@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Collective Theme &amp; shadcn Registry</title>
+  <link rel="stylesheet" href="../src/theme.css">
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: var(--background);
+      color: var(--foreground);
+      padding: 3rem 1.5rem;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    code {
+      background: var(--muted);
+      padding: 0.2rem 0.4rem;
+      border-radius: 0.35rem;
+      font-family: ui-monospace, monospace;
+      font-size: 0.9em;
+    }
+    pre {
+      background: var(--muted);
+      padding: 1rem;
+      border-radius: var(--radius);
+      overflow-x: auto;
+      font-family: ui-monospace, monospace;
+      font-size: 0.85em;
+    }
+    .swatches {
+      display: flex;
+      gap: 1rem;
+      margin: 1rem 0;
+      flex-wrap: wrap;
+    }
+    .swatch {
+      width: 60px;
+      height: 60px;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>AI Collective Theme</h1>
+  <p>The canonical brand theme and shadcn registry for AI Collective Mannheim projects.</p>
+
+  <div class="card">
+    <h3>Quick Install (shadcn CLI)</h3>
+    <pre>npx shadcn add https://ai-collective-mannheim.github.io/ui-theme/theme.json</pre>
+  </div>
+
+  <div class="card">
+    <h3>Palette Swatches</h3>
+    <div class="swatches">
+      <div class="swatch" style="background: var(--primary); color: var(--primary-foreground);">Primary</div>
+      <div class="swatch" style="background: var(--card); color: var(--card-foreground);">Card</div>
+      <div class="swatch" style="background: var(--muted); color: var(--muted-foreground);">Muted</div>
+      <div class="swatch" style="background: var(--accent); color: var(--accent-foreground);">Accent</div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "@ai-collective/ui-theme",
+  "version": "1.0.0",
+  "description": "Canonical AI Collective theme and shadcn registry",
+  "main": "src/theme.css",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AI-Collective-Mannheim/ui-theme.git"
+  },
+  "keywords": ["ai-collective", "shadcn", "tailwind", "theme"],
+  "author": "AI Collective Mannheim",
+  "license": "MIT"
+}

@@ -1,0 +1,59 @@
+{
+  "$schema": "https://ui.shadcn.com/schema/registry.json",
+  "name": "ai-collective",
+  "homepage": "https://ai-collective-mannheim.github.io/ui-theme",
+  "items": [
+    {
+      "name": "theme",
+      "type": "registry:theme",
+      "title": "AI Collective Theme",
+      "description": "Canonical AI Collective brand theme for shadcn/ui and Tailwind CSS v4",
+      "cssVars": {
+        "light": {
+          "background": "60 5% 96%",
+          "foreground": "12 6% 15%",
+          "card": "0 0% 100%",
+          "card-foreground": "12 6% 15%",
+          "popover": "0 0% 100%",
+          "popover-foreground": "12 6% 15%",
+          "primary": "24 95% 53%",
+          "primary-foreground": "0 0% 100%",
+          "secondary": "60 5% 96%",
+          "secondary-foreground": "12 6% 15%",
+          "muted": "60 5% 96%",
+          "muted-foreground": "25 5% 45%",
+          "accent": "24 100% 95%",
+          "accent-foreground": "24 95% 42%",
+          "destructive": "0 84.2% 60.2%",
+          "destructive-foreground": "60 9% 98%",
+          "border": "20 6% 90%",
+          "input": "20 6% 90%",
+          "ring": "24 95% 53%",
+          "radius": "0.75rem"
+        },
+        "dark": {
+          "background": "20 14% 4%",
+          "foreground": "60 5% 96%",
+          "card": "24 10% 10%",
+          "card-foreground": "60 5% 96%",
+          "popover": "24 10% 10%",
+          "popover-foreground": "60 5% 96%",
+          "primary": "24 95% 58%",
+          "primary-foreground": "20 14% 4%",
+          "secondary": "12 6% 15%",
+          "secondary-foreground": "60 5% 96%",
+          "muted": "12 6% 15%",
+          "muted-foreground": "24 5% 64%",
+          "accent": "24 35% 19%",
+          "accent-foreground": "24 95% 72%",
+          "destructive": "0 62.8% 30.6%",
+          "destructive-foreground": "60 5% 96%",
+          "border": "12 6% 15%",
+          "input": "12 6% 15%",
+          "ring": "24 95% 58%",
+          "radius": "0.75rem"
+        }
+      }
+    }
+  ]
+}
